@@ -27,7 +27,7 @@ class car(db.Model):
         self.brand = brand
         self.price = price
 
-# Staff Schema
+# Staff Schemasdsdsdsdasdad
 class CarSchema(ma.Schema):
     class Meta:
         fields =('id', 'name', 'brand', 'price')
